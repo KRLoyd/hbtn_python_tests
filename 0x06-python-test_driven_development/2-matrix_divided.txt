@@ -29,3 +29,8 @@ print matrix_divided(matrix, 6)
 
 # matrix is None
 print matrix_divided(None, 2)
+
+# matrix includes True and False
+matrix = [[True, False], [1, 0]]
+
+print matrix_divided(matrix, 2)
