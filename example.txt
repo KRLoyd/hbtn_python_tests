@@ -1,10 +1,10 @@
->>> [YOUR_FUNCTION] = __import__('[A_FILE]').[YOUR_FUNCTION]
+>>> <YOUR_FUNCTION> = __import__('[A_FILE]').<YOUR_FUNCTION>
 
 
->>> [YOUR_FUNCTION]([VARIABLE], [VARIABLE])
+>>> <YOUR_FUNCTION>([ARG1], [ARG2])
 [EXPECTED OUTPUT]
 
->>> [YOUR_FUNCTION]([VARIABLE], [VARIABLE])
+>>> <YOUR_FUNCTION>([ARG1], [ARG2])
 Traceback (most recent call last):
 		  ...
 [YOURERROR:] [YOURMESSAGE]
