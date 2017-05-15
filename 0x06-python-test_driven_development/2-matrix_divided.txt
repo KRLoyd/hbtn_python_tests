@@ -34,3 +34,9 @@ print matrix_divided(None, 2)
 matrix = [[True, False], [1, 0]]
 
 print matrix_divided(matrix, 2)
+
+# no arguments
+print matrix_divided()
+
+# extra args
+print matrix_divided(matrix, 2, "well hello there")
