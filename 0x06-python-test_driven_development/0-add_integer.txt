@@ -25,4 +25,10 @@ add_integer(True, 45)
 add_integer(False, True)
 
 # input list and int
- add_integer([1, 2, 3], 7)
+add_integer([1, 2, 3], 7)
+
+# no arguments
+add_integer()
+
+# extra args
+add_integer(6, 2, "well hello there")
