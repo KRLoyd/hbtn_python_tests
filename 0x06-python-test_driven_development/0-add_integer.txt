@@ -1,18 +1,5 @@
->>> add_integer = __import__('0-add_integer').add_integer
-
-
->>> add_integer(8.0, 5)
-13
-
->>> add_integer('hi', 6)
-Traceback (most recent call last):
-		  ...
-TypeError: a must be an integer
-
->>> add_integer(6, 'yo')
-Traceback (most recent call last):
-		  ...
-TypeError: b must be an integer
-
->>> add_integer(999999999999, 1)
-1000000000000
+try these test:
+add_integer(8.0, 5)
+add_integer('hi', 6)
+add_integer(6, 'yo')
+add_integer(999999999999, 1)
