@@ -1,5 +1,19 @@
-try these test:
+try these tests:
+
+# input float and int
 add_integer(8.0, 5)
+
+# input float and int reversed
+add_integer(8, 5.0)
+
+# input string and int
 add_integer('hi', 6)
+
+# input int and string reversed
 add_integer(6, 'yo')
+
+# input large number
 add_integer(999999999999, 1)
+
+# input None
+add_integer(None, None)
