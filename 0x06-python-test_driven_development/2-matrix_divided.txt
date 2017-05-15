@@ -26,3 +26,6 @@ matrix = [[1, 'hi', 2], [5, 7, 8]]
 
 # input of new matrix that includes strings
 print matrix_divided(matrix, 6)
+
+# matrix is None
+print matrix_divided(None, 2)
