@@ -1,15 +1,35 @@
 # print_square 4
+print_square(4)
 
 # print_square 0
+print_square(0)
 
-# print_square -True
+# print_square True
+print_square(True)
 
 # print_square False
+print_square(False)
 
 # print_square -1
+print_square(-1)
 
 # print_square 10
+print_square(10)
 
 # print_square -4.3
+print_square(-4.3)
 
 # print_square 4.3
+print_square(4.3)
+
+# print_square None
+print_square(None)
+
+# print_square empty args
+print_square()
+
+# print_square extra args
+print_square(4, "hello there")
+
+# print_square 'string'
+print_square('string')

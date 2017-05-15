@@ -1,0 +1,34 @@
+try these tests:
+
+# input float and int
+add_integer(8.0, 5)
+
+# input float and int reversed
+add_integer(8, 5.0)
+
+# input string and int
+add_integer('hi', 6)
+
+# input int and string reversed
+add_integer(6, 'yo')
+
+# input large number
+add_integer(999999999999, 1)
+
+# input None
+add_integer(None, None)
+
+# input bool and int
+add_integer(True, 45)
+
+# input bool and bool
+add_integer(False, True)
+
+# input list and int
+add_integer([1, 2, 3], 7)
+
+# no arguments
+add_integer()
+
+# extra args
+add_integer(6, 2, "well hello there")
