@@ -1,13 +1,20 @@
 # say_my_name str and str
+say_my_name("daffy", "duck")
 
 # say_my_name str and None
+say_my_name("eminem", None)
 
 # say_my_name None and str
+say_my_name(None, "scrooge")
 
 # say_my_name [empty] and [empty]
+say_my_name()
 
 # say_my_name num and num
+say_my_name(5, 6)
 
 # say_my_name num and str
+say_my_name(8, "hey")
 
 # say_my_name str and num
+say_my_name("this", 8)
