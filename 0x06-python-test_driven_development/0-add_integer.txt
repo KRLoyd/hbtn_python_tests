@@ -23,3 +23,6 @@ add_integer(True, 45)
 
 # input bool and bool
 add_integer(False, True)
+
+# input list and int
+ add_integer([1, 2, 3], 7)
