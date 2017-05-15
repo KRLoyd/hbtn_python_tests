@@ -1,0 +1,16 @@
+# matrix = [[1, 2, 3],[4, 5, 6]]
+
+# print matrix_divided(matrix, 3)
+
+# print matrix_divided(matrix, 1.5)
+
+# print matrix
+
+# print matrix_divided(matrix, "Hi")
+
+# print matrix_divided(matrix, 0)
+
+# change the matrix to not be symmetrical
+# matrix = [[1, 2, 3],[4, 6]]
+
+# print matrix_divided(matrix, 2)
