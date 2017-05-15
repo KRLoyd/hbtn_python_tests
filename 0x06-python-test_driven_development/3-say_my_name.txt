@@ -18,3 +18,7 @@ say_my_name(8, "hey")
 
 # say_my_name str and num
 say_my_name("this", 8)
+
+# input of str and [empty]
+say_my_name("jonas", )
+
