@@ -17,3 +17,9 @@ add_integer(999999999999, 1)
 
 # input None
 add_integer(None, None)
+
+# input bool and int
+add_integer(True, 45)
+
+# input bool and bool
+add_integer(False, True)
