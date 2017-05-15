@@ -1,21 +1,28 @@
 # matrix = [[1, 2, 3],[4, 5, 6]]
 
-# print matrix_divided(matrix, 3)
+# input of standard matrix and div = integer
+print matrix_divided(matrix, 3)
 
-# print matrix_divided(matrix, 1.5)
+# input of standard matrix and div = float
+print matrix_divided(matrix, 1.5)
 
-# print matrix
+# print the matrix
+print matrix
 
-# print matrix_divided(matrix, "Hi")
+# input of div = 'string'
+print matrix_divided(matrix, "Hi")
 
-# print matrix_divided(matrix, 0)
+# input of div = 0
+print matrix_divided(matrix, 0)
 
 # change the matrix to not be symmetrical
-# matrix = [[1, 2, 3],[4, 6]]
+matrix = [[1, 2, 3],[4, 6]]
 
-# print matrix_divided(matrix, 2)
+# test above asymmetrical matrix
+print matrix_divided(matrix, 2)
 
 # change the matrix to be symmetrical, but has a string
-# matrix = [[1, 'hi', 2], [5, 7, 8]]
+matrix = [[1, 'hi', 2], [5, 7, 8]]
 
-# print matrix_divided(matrix, 6)
+# input of new matrix that includes strings
+print matrix_divided(matrix, 6)
