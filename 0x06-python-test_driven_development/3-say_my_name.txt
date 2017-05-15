@@ -1,0 +1,13 @@
+# say_my_name str and str
+
+# say_my_name str and None
+
+# say_my_name None and str
+
+# say_my_name [empty] and [empty]
+
+# say_my_name num and num
+
+# say_my_name num and str
+
+# say_my_name str and num
