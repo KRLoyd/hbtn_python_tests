@@ -24,3 +24,6 @@ text_indentation()
 
 # too many args
 text_indentation("this", "that")
+
+# input of None
+text_indentation(None)
