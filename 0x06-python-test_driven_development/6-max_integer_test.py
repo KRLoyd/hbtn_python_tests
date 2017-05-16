@@ -33,3 +33,6 @@ max_integer(-99)
 
 # Test a list of negatives
 max_integer([-4, -3, 1, -9])
+
+# Test a list incl None
+max_integer([1, 3, None, 7])
