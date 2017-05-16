@@ -15,3 +15,15 @@ max_integer(["hi", 1, 2, 3])
 
 # Test with a boolean
 max_integer([True, False, 1, 2, 3])
+
+# Test a string in a list
+max_integer(["hi!", 1, 2, 3])
+
+# Test a string
+max_integer("hi")
+
+# Test an int
+max_integer(9)
+
+# Test a float
+max_integer(5.6)
