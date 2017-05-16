@@ -5,7 +5,7 @@ text_indentation('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quona
 text_indentation('hi.      how   ?  you:    Lisa')
 
 # prefix spaces
-text_indentation('     hello!')
+text_indentation('     <- spaces anyone?')
 
 # all ......
 text_indentation('.......')
