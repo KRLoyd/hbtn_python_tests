@@ -11,7 +11,7 @@ text_indentation('     <- spaces anyone?')
 text_indentation('.......')
 
 # newlines without substitutions
-text_indentation('hi  \n  how  \n  are  \n  you:  Bobby?')
+text_indentation('hi  \n  how  \n  <- spaces anyone?->  \n  you:  Bobby?')
 
 # non string
 text_indentation(45)
