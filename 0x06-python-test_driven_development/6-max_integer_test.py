@@ -36,3 +36,9 @@ max_integer([-4, -3, 1, -9])
 
 # Test a list incl None
 max_integer([1, 3, None, 7])
+
+# Test None 
+max_integer(None)
+
+# Test None as list
+max_integer([None])
