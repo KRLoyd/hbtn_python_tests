@@ -42,3 +42,6 @@ max_integer(None)
 
 # Test None as list
 max_integer([None])
+
+# Test a negative sign in front of list
+max_integer(-[1, 4, 5, 6])
