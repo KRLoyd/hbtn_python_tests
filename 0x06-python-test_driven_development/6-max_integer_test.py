@@ -30,3 +30,6 @@ max_integer(5.6)
 
 # Test a negative
 max_integer(-99)
+
+# Test a list of negatives
+max_integer([-4, -3, 1, -9])
