@@ -27,3 +27,6 @@ max_integer(9)
 
 # Test a float
 max_integer(5.6)
+
+# Test a negative
+max_integer(-99)
