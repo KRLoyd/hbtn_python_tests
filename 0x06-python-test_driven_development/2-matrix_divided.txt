@@ -40,3 +40,6 @@ print matrix_divided()
 
 # extra args
 print matrix_divided(matrix, 2, "well hello there")
+
+# True is passed instead of matrix
+print matrix_divided(True, 2)
