@@ -20,14 +20,16 @@ parameters only.
 These files have 2 sections: __Holberton Cases__ and __Test Present Cases__.
 
 * __Holberton Cases__: refers to the inputs that your python function, in your
-python `.py` file, should handle
+python `.py` file, should handle as input arguments.
 
 ```
-# <case to check>
+# <case to check> (i.e. arg1 arg2)
 ```
 
 * __Test Present Cases__: refers to the test that you should have, in your
-testing file `.txt`, that includes a line for the expected output
+testing file `.txt`, that includes a line for the expected output.  __NOTE:__
+all of the above Holberton Cases should be tested plus additional cases to check
+how your code handles errors.
 
 ```
 # <a test case to check>
