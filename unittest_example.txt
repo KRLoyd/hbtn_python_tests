@@ -1,0 +1,28 @@
+#!/usr/bin/python3
+import unittest
+<YOUR_FUNCTION> = __import__('[YOUR_FILE]').<YOUR_FUNCTION>
+
+
+class Test[NameOfTest](unittest.TestCase):
+
+    def test_variable(self):
+        a = 77
+        self.assertEqual(<YOUR_FUNCTION>([a]), a)
+
+   def test_none(self):
+        self.assertIsNone(<YOUR_FUNCTION>([None]))
+
+
+class ExpectedFailure(unittest.TestCase):
+
+    @unittest.expectedFailure
+    def test_listofsets(self):
+        self.assertEqual(<YOUR_FUNCTION>([{5, 7}, {5, 1, 99}]), {5, 1, 99})
+
+    def test_string_in_list(self):
+        with self.assertRaises(TypeError):
+            <YOUR_FUNCTION>(["string here", 1, 2, 3])
+
+
+if __name__ == '__main__':
+    unittest.main()

@@ -11,7 +11,7 @@ Holberton Cases:
 # Test present: integer casting
   # input float and int reversed
   add_integer(8, 5.0)
-  
+
   # input float and int
   add_integer(8.0, 5)
 
@@ -53,23 +53,18 @@ Holberton Cases:
 # Test present: float overflow
   # <DUPE> input bool and int
   add_integer(True, 45)
-  
+
   # <DUPE> input bool and bool
   add_integer(False, True)
 
 # Test present: cannot convert float NaN to integer
   # <DUPE> input bool and int
   add_integer(True, 45)
-  
+
   # <DUPE> input bool and bool
   add_integer(False, True)
 
 # Test present: missing one argument
-  # <DUPE> input bool and int
-  add_integer(True, 45)
-
-  # <DUPE> input bool and bool
-  add_integer(False, True)
 
   # no arguments
   add_integer()
@@ -78,11 +73,6 @@ Holberton Cases:
   add_integer(6, 2, 4)
 
 # Test present: missing two arguments
-  # <DUPE> input bool and int
-  add_integer(True, 45)
-
-  # <DUPE> input bool and bool
-  add_integer(False, True)
 
   # <DUPE> no arguments
   add_integer()
