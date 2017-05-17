@@ -14,10 +14,17 @@ This repository is not for code, it is for listing test cases and their
 parameters only.
 
 ## Style
-Each case will have the following format:
+These files have 2 sections: __Holberton Cases__ and __Test Present Cases__.
+* __Holberton Cases__: refers to the inputs that your python function should
+handle
 ```
 # <case to check>
-<function>(agr1, arg2)
+```
+* __Test Present Cases__: refers to the test that you should have with a line
+for the expected output
+```
+# <a test case to check>
+<YOUR_FUNCTION>(arg1, arg2)
 ```
 
 ## Usage
