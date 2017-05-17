@@ -1,34 +1,91 @@
-try these tests:
+Holberton Cases:
 
-# input float and int
-add_integer(8.0, 5)
+# Case: 1 + 2
 
-# input float and int reversed
-add_integer(8, 5.0)
+# Case: 1 + -2
 
-# input string and int
-add_integer('hi', 6)
+# Case: 1.4 + 2
 
-# input int and string reversed
-add_integer(6, 'yo')
+# Case: 1 + "2"
 
-# input large number
-add_integer(999999999999, 1)
+# Test present: integer casting
+  # input float and int reversed
+  add_integer(8, 5.0)
+  
+  # input float and int
+  add_integer(8.0, 5)
 
-# input None
-add_integer(None, None)
+  # input bool and int
+  add_integer(True, 45)
 
-# input bool and int
-add_integer(True, 45)
+  # input bool and bool
+  add_integer(False, True)
 
-# input bool and bool
-add_integer(False, True)
+# Test present: check type
+  # input string and int
+  add_integer('hi', 6)
 
-# input list and int
-add_integer([1, 2, 3], 7)
+  # input int and string reversed
+  add_integer(6, 'yo')
 
-# no arguments
-add_integer()
+  # input None
+  add_integer(None, None)
 
-# extra args
-add_integer(6, 2, "well hello there")
+  # input list and int
+  add_integer([1, 2, 3], 7)
+
+# Test present: regular addition
+  # <DUPE> input float and int
+  add_integer(8.0, 5)
+
+  # <DUPE> input float and int
+  add_integer(8, 5.0)
+
+  # input large number
+  add_integer(999999999999, 1)
+
+  # <DUPE> input bool and int
+  add_integer(True, 45)
+
+  # <DUPE> input bool and bool
+  add_integer(False, True)
+
+# Test present: float overflow
+  # <DUPE> input bool and int
+  add_integer(True, 45)
+  
+  # <DUPE> input bool and bool
+  add_integer(False, True)
+
+# Test present: cannot convert float NaN to integer
+  # <DUPE> input bool and int
+  add_integer(True, 45)
+  
+  # <DUPE> input bool and bool
+  add_integer(False, True)
+
+# Test present: missing one argument
+  # <DUPE> input bool and int
+  add_integer(True, 45)
+
+  # <DUPE> input bool and bool
+  add_integer(False, True)
+
+  # no arguments
+  add_integer()
+
+  # extra args
+  add_integer(6, 2, 4)
+
+# Test present: missing two arguments
+  # <DUPE> input bool and int
+  add_integer(True, 45)
+
+  # <DUPE> input bool and bool
+  add_integer(False, True)
+
+  # <DUPE> no arguments
+  add_integer()
+
+  # <DUPE> extra args
+  add_integer(6, 2, 4)
