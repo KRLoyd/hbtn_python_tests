@@ -7,8 +7,6 @@ max_integer([a, 1, 2, 4])
 # floats
 max_integer([4, 4.4, 4.8])
 
-
-
 # Large Int
 max_integer([99999999999999999999999, 1])
 
