@@ -9,7 +9,7 @@ class Test[NameOfTest](unittest.TestCase):
         a = 77
         self.assertEqual(<YOUR_FUNCTION>([a]), a)
 
-   def test_none(self):
+    def test_none(self):
         self.assertIsNone(<YOUR_FUNCTION>([None]))
 
 
