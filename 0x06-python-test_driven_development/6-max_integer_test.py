@@ -4,6 +4,11 @@ max_integer([1, 2, 3, 4])
 # Test list with not an int
 max_integer([a, 1, 2, 4])
 
+# floats
+max_integer([4, 4.4, 4.8])
+
+
+
 # Large Int
 max_integer([99999999999999999999999, 1])
 
@@ -48,3 +53,15 @@ max_integer([None])
 
 # Test None None None
 max_integer([None, None, None])
+
+# a set
+max_integer({5, 8, 0, 99})
+
+# list of sets
+max_integer([{5, 7}, {5, 1, 99}])
+
+# list of tuples
+max_integer([(1, 1), (99, 99)])
+
+# a tuple
+max_integer((1, 99, 5, 8))
