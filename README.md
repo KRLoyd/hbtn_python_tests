@@ -19,15 +19,15 @@ parameters only.
 
 These files have 2 sections: __Holberton Cases__ and __Test Present Cases__.
 
-* __Holberton Cases__: refers to the inputs that your python function should
-handle
+* __Holberton Cases__: refers to the inputs that your python function, in your
+python `.py` file, should handle
 
 ```
 # <case to check>
 ```
 
-* __Test Present Cases__: refers to the test that you should have with a line
-for the expected output
+* __Test Present Cases__: refers to the test that you should have, in your
+testing file `.txt`, that includes a line for the expected output
 
 ```
 # <a test case to check>
@@ -36,8 +36,8 @@ for the expected output
 
 ### unittest
 
-* __Test Present Cases__: refers to the test that you should have with a line
-for the expected output
+* __Test Present Cases__: refers to the test that you should have, in your test
+`.py`, file that includes a line for the expected output
 
 ```
 # <case to check>
