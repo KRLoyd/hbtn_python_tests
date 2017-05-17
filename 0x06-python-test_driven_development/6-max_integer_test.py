@@ -51,6 +51,12 @@ max_integer(None)
 # Test None as list
 max_integer([None])
 
+# Test a negative sign in front of list
+max_integer(-[1, 4, 5, 6])
+
+# Test a list of floats
+max_integer([4.5, 6.7, 7.8])
+
 # Test None None None
 max_integer([None, None, None])
 
