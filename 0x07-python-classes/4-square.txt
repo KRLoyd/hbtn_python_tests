@@ -1,0 +1,21 @@
+Expected Successes:
+===================
+
+# size is int
+my_square = Square(9)
+
+# size is large int
+my_square = Square(100000000000000000000000000000000000000000000000000000)
+
+# no size passed
+my_square = Square()
+
+
+Expected Failures:
+==================
+
+# size is not int
+my_square = Square("size")
+
+# size is negative
+my_square = Square(-17)
