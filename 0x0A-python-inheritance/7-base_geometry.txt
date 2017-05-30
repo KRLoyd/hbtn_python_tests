@@ -1,0 +1,22 @@
+Test docstrings:
+module
+class
+all functions (in and out of class)
+
+# set up base:
+base = BaseGeometry()
+
+
+Expected Success (integer_validator):
+# name: string, valuse: positive int
+
+Expected Failures (integer_validator):
+# name: string, value: 0
+# name: string, value: negative integer
+# name: string, value: bool
+# name: string, value: float
+# name: string, value: list
+# name: string, value: tuple
+# name: string, value: set
+# name: string, value: dictionary
+# name: string, value: string
