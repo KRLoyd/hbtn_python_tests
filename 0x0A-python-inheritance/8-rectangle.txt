@@ -1,0 +1,18 @@
+Test for docstrings:
+module
+class
+functions (in and out of class)
+
+Expected Success:
+   # width: pos int, height: pos int
+		     
+Expected Failure:
+   # width: pos int, height: 0
+   # width: 0, height: pos int
+   # width: pos int, height: neg int
+   # width: neg int, height: pos int
+   # width: pos int, height: string
+   # width: list, height: pos int
+   # width: pos int, height: dict
+   # width: set, height: pos int
+   # width: pos int, height: bool
